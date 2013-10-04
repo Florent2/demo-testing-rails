@@ -1,0 +1,7 @@
+<h1>My Blog</h1>
+
+<ul>
+  <% @posts.each do |post| %>
+    <li><%= post.displayed_title %></li>
+  <% end %>
+</ul>
